@@ -1,44 +1,84 @@
-body{
-  background-image: url("https://img.freepik.com/free-photo/clock-ticks-sands-slip-sun-sets-success-awaits-generative-ai_188544-9602.jpg?t=st=1712704641~exp=1712708241~hmac=5d0d756f35cdf93367ec795b7a82477ef3fc88819ba65e1d29c8a174b0f4a748&w=1380");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+.App{
+  background-color: rgba(255, 255, 255, 0.5);
 }
-
-.App {
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
-  /* text-align: center; */
-  background-color: rgba(165, 176, 164, 0.88);
-  min-height: 100vh;
-}
-h1{
-  font-size: 60px;
-  color: rgba(162, 8, 8, 0.569);
-  margin-left: 50px;
+  align-items: center;
 }
 
-p{
-  color: #0d2331;
-  font-size: 40px;
-  font-weight: bold;
-  font-style: italic;
-  margin-left: 50px;
-}
-button{
-  padding: 20px;
-  color: #fff;
-  background-color: red;
-  border: none;
-  width: 50%;
-  text-align: center;
-  margin-left: 50px;
-}
-button:hover{
-  background-color: #fff;
-  border: 1px solid red;
-  color: red;
-}
+.search {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: #000;
+  box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+  }
+  .tasty{
+    background: #fff;
+    padding: 24px 24px;
+    outline: transparent;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+    transition: box-shadow .2s ease-in-out;
+    width: 200px;
+  }
+  li{
+    display: block;
+    padding: .2em .2em .2em .4em ;
+    margin: .5em 5em .5em;
+    background: #dde8a0f0;
+  }
+  li:hover{
+    background: #DCDDE1;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  }
+  h1, h2, ul, p{
+    font-family: "Scope One", serif;
+    font-weight: 800;
+    font-style: normal;
+    
+  }
+  .icon{
+    width: 30px;
+  }
+  button {
+    margin-top: 10px;
+    border: 1px solid #4f281f;
+    padding: 2px 12px;
+    background-color: transparent;
+    outline: transparent;
+    box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+    transition: box-shadow .2s ease-in-out;
+   }
+    button:hover{
+      background-color: #5b6429;
+    }
+  .par{
+  color: #b01930;
+  font-weight: bolder;
+  font-family: "Scope One", serif;
+  }
+  .scope-one-regular {
+    font-family: "Scope One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+    
+
+ 
